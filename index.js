@@ -76,12 +76,12 @@ function sum(x, y) {
               gender: 'F'
             },
 
-            { person2: 'child',
-            names: ['paul','Wisdom','Frank', {age:[20]},{gender:['M']}],
+            { person3: 'child',
+            names: ['Wisdom','pETER','Paul'],
             age: 30,
-              gender: 'M'
-          }
+            gender: 'F'
+          },
             
           ]     
 
-          console.log(ourNames[1].names)
+          console.log(ourNames[2].names[0])
